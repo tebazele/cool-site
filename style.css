@@ -101,7 +101,7 @@ footer {
   margin: 1.5em;
 }
 
-@media (max-width:1000px) {
+@media (max-width:950px) {
   .d-flex {
     display: flex;
     align-items:center;
@@ -112,9 +112,39 @@ footer {
   .space-container {
     width:0;
   }
+
+  .container-1 {
+    width: 100%;
+    padding: 1.5em;
+  }
+
+  .lgt-blue-bar {
+    background-color:rgb(186, 207, 246);
+    height:20px;
+    width:90%;
+    margin: auto 20px;
+
+  }
+
+  .para {
+    padding:1.5em;
+    margin: 1.5em;
+    font-size: 14px;
+    text-align: left;
+    width: 90%;
+  }
+
   .container-2 {
-    width: 55%;
-    padding: 3em 1.5em 1.5em 1.5em;
+    width: 100%;
+    padding: 1.5em;
+    margin: auto;
+    position: relative;
+  }
+
+  h1 {
+    font-weight: 300;
+  font-size: 36px;
+  margin: .5em 0 .25em 0;
   }
 
 }
